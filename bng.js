@@ -1,14 +1,16 @@
 $(document).ready(function () //Function to run when website is loaded
 {
+    var word1 = "Your";
+    var word2 = "New";
+    var word3 = "Band Name";
     
     
     
     
     
-    $("#testButt").click(function () //For testing
+    $("#Generate").click(function () //For testing
     {
-        console.log(99);
-        document.getElementById("outputText").innerHTML = "Test Text!";
+        document.getElementById("outputText").innerHTML = word1 + " " + word2 + " " + word3;
     });
 
 
